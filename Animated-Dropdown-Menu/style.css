@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menu {
+  width: 100%;
+  z-index: 1;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2em;
+  display:block;
+  position: fixed;
+  overflow: hidden;
+}
+
+.brand {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #888;
+  z-index: 3;
+}
+.dropDown {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: auto;
+  background-color: #888;
+  transform: translateY(-250px);
+  transition: transform 0.5s;
+  z-index: -1;
+}
+
+.menu1 {
+  position: absolute;
+  margin-top: 300px;
+  width: 100%;
+  z-index: 1;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 2em;
+  overflow: hidden;
+}
+
+.brand1 {
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #888;
+  z-index: 3;
+}
+.dropDown1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: auto;
+  background-color: #888;
+  transform: translateX(-2000px);
+  transition: transform 0.5s;
+  z-index: -1;
+}
